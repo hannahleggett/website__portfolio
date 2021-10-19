@@ -27,7 +27,6 @@
   position: fixed;
   overflow: hidden;
   // white-space: nowrap;
-  margin-top: 4%;
   // transform: translate(0, -50%);
   line-height: 0.95;
   z-index: 2;
@@ -68,24 +67,21 @@
 // }
 
 .titles__subhead {
+  margin-top: 5rem;
   margin-left: 5%;
 }
 
 .titles__role {
-  position: absolute;
+  position: fixed;
   left: 5%;
-  top: 42%;
+  top: 50%;
   transform: translate(0, -50%);
 }
 
 .titles__cta {
   left: 5%;
   position: absolute;
-  top: 87%;
-
-  @include media('<tablet') {
-    top: 92%;
-  }
+  bottom: 5rem;
 }
 
 // .titles__disciplines {

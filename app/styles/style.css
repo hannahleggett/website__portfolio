@@ -130,31 +130,26 @@ img {
 .titles {
   position: fixed;
   overflow: hidden;
-  margin-top: 4%;
   line-height: 0.95;
   z-index: 2;
 }
 
 .titles__subhead {
+  margin-top: 5rem;
   margin-left: 5%;
 }
 
 .titles__role {
-  position: absolute;
+  position: fixed;
   left: 5%;
-  top: 42%;
+  top: 50%;
   transform: translate(0, -50%);
 }
 
 .titles__cta {
   left: 5%;
   position: absolute;
-  top: 87%;
-}
-@media (max-width: 1023px) {
-  .titles__cta {
-    top: 92%;
-  }
+  bottom: 5rem;
 }
 
 .content__item {
