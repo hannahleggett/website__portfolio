@@ -216,7 +216,7 @@ img {
 @media (max-width: 767px) {
   .content__item:nth-child(1) {
     left: 1rem;
-    margin-top: 120%;
+    margin-top: 95%;
   }
   .content__item:nth-child(2) {
     left: 1rem;
