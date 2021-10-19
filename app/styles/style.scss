@@ -1,5 +1,5 @@
 @import './base/reset';
-@import './base/fonts';
+
 
 @import './utils/functions';
 @import './utils/mixins';
@@ -7,6 +7,7 @@
 @import './utils/variables';
 // @import './utils/vendors';
 
+@import './base/fonts';
 @import './base/base';
 
 @import './pages/home/home';
