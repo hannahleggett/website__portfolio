@@ -149,7 +149,12 @@ img {
 .titles__cta {
   left: 5%;
   position: absolute;
-  top: 90%;
+  top: 87%;
+}
+@media (max-width: 1023px) {
+  .titles__cta {
+    top: 92%;
+  }
 }
 
 .content__item {

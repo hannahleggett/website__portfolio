@@ -81,7 +81,11 @@
 .titles__cta {
   left: 5%;
   position: absolute;
-  top: 90%;
+  top: 87%;
+
+  @include media('<tablet') {
+    top: 92%;
+  }
 }
 
 // .titles__disciplines {
