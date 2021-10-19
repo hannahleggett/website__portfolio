@@ -1,0 +1,27 @@
+// thin: 100, light: 200, Regular: 400, medium: 500, semi-bold: 600, bold: 700
+
+h1 {
+  font-family: canada-type-gibson,sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+h2 {
+  font-family: canada-type-gibson,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12rem;
+  // text-transform: uppercase;
+}
+
+p {
+  font-family: canada-type-gibson,sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.8rem;
+  // text-transform: uppercase;
+}
+

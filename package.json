@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "hannah leggett digital design portfolio",
+  "author": "hannah leggett",
+  "license": "ISC",
+  "scripts": {},
+  "dependencies": {
+    "include-media": "^1.4.10",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.2"
+  }
+}

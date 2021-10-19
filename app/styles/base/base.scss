@@ -1,0 +1,22 @@
+html {
+  font-size: calc(100vw / 1440 * 10);
+  line-height: 1;
+
+  scroll-behavior: smooth;
+  @include media('<tablet') {
+    font-size: calc(100vw / 1000 * 10);
+  }
+
+  @include media('<phone') {
+    font-size: calc(100vw / 750 * 10);
+  }
+}
+
+body {
+  background-color: $color-offblack;
+  color: $color-offwhite;
+}
+
+img {
+  width: 100%;
+}
