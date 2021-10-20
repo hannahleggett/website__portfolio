@@ -126,6 +126,9 @@ img {
 .background {
   position: relative;
 }
+.background:nth-child(2) {
+  margin-top: -3px;
+}
 
 .titles {
   position: fixed;

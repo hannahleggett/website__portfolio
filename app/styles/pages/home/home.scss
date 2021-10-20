@@ -17,6 +17,10 @@
 
 .background {
   position: relative;
+  
+  &:nth-child(2){
+    margin-top: -3px
+  }
 }
 
 .titles {
