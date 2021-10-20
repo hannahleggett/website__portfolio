@@ -114,6 +114,7 @@ img {
   left: 0;
   width: 100%;
   mix-blend-mode: overlay;
+  opacity: 20%;
 }
 
 .svg-container {
@@ -123,7 +124,6 @@ img {
 }
 
 .background {
-  mix-blend-mode: overlay;
   position: relative;
 }
 
