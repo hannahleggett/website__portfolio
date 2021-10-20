@@ -113,8 +113,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  mix-blend-mode: overlay;
-  opacity: 20%;
+  opacity: 16%;
 }
 
 .svg-container {
